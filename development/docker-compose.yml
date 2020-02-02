@@ -1,0 +1,26 @@
+version: '3.5'
+
+services:
+
+  postgres:
+    container_name: postgres
+    image: postgres:12.1
+    env_file: 
+      - .env
+    volumes:
+      - ${RELATIVE_PATH}.postgresdb/:/var/lib/postgresql/data
+    ports:
+      - "${POSTGRES_PORT}:5432"
+    restart: on-failure
+
+
+  redis:
+    container_name: redis
+    image: redis:rc-buster
+    ports:
+      - "6379:6379"
+    restart: on-failure
+    command: ["redis-server", "--appendonly", "yes"]
+    hostname: redis
+
+    

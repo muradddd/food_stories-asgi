@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+Ana sehife
+{% endblock title %}
+
+{% block  body%}
+
+<section class="ftco-section contact-section register">
+    <div class="container">
+        <div class="row block-9 justify-content-center">
+            <div class="col-md-6 order-md-last d-flex">
+                <form action="" method="post" class="bg-light p-5 contact-form">
+                    {% csrf_token %}
+                    {{ form.non_field_errors }}
+                    <a class="navbar-brand center" href="#">Stories<span>.</span></a>
+                    <div class="form-group">
+                        {{ form.first_name }}
+                        {{ form.first_name.errors }}
+                    </div>
+                    <div class="form-group">
+                        {{ form.last_name }}
+                        {{ form.last_name.errors }}
+                    </div>
+                    <div class="form-group">
+                        {{ form.username }}
+                        {{ form.username.errors }}
+                    </div>
+                    <div class="form-group">
+                        {{ form.email }}
+                        {{ form.email.errors }}
+                    </div>
+                    <div class="form-group">
+                        {{ form.password1 }}
+                        {{ form.password1.errors }}
+                    </div>
+                    <div class="form-group">
+                        {{ form.password2 }}
+                        {{ form.password2.errors }}
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Register" class="btn btn-primary py-3 px-5">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock body %}

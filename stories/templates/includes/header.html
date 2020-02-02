@@ -1,0 +1,27 @@
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="{% url 'stories:home' %}">Stories<span>.</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu"></span> Menu
+        </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="{% url 'stories:home' %}" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="{% url 'stories:about' %}" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="{% url 'stories:stories' %}" class="nav-link">Stories</a></li>
+                    <li class="nav-item"><a href="{% url 'stories:recipes' %}" class="nav-link">Recipes</a></li>
+                    <li class="nav-item"><a href="{% url 'stories:contact' %}" class="nav-link">Contact</a></li>
+
+                    {% if user.is_authenticated %}
+                        <li class="nav-item"><a href="{% url 'accounts:user-profile' user.pk %}" class="nav-link">{{ user.first_name }}</a></li>
+                        <li><a href="{% url 'accounts:logout' %}" class="btn btn-black px-3 px-md-4 py-3">Log out</a></li>
+                    {% else %}
+                        <li><a href="{% url 'accounts:login' %}" class="btn btn-black px-3 px-md-4 py-3">Sign in</a></li>
+                    {% endif %}
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>

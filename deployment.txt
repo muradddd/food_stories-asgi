@@ -1,0 +1,69 @@
+Deploya hazirliq
+virtualenv aktiv edirik
+- ./manage.py dumpdata --natural-foreign \
+   --exclude auth.permission --exclude contenttypes --exclude django_celery_beat \
+   --indent 4 > data1.json  #(database-i dump edirik)
+
+
+Oz komputerimiz
+- pip install gunicorn
+`manage.py` ilə eyni səviyyədə `Dockerfile` və `.dockerignore`(serverə yükləməyini istəmədiyimiz fayllar üçün) adlı fayl yaradırığ
+`docker-compose.yml` faylında `web` adlı servis yaradırıq
+`settings.py`-da DATABASE HOST üçün `docker-compose.yml` faylında postgresi işlədən servisin adını yazırıq
+`settings.py`-da ALLOWED_HOST = ["*"] edirik
+`settings.py`-da STATIC_ROOT = os.path.join(BASE_DIR, 'static') yaziriq
+`settings.py`-da DEBUG = False edirik
+`nginx` adli folderi config edirik
+- ./manage.py collectstatic
+- sudo docker-compose up -d --build
+
+
+Google server 
++ sudo su -       #(root user-ə keçmək üçün, dash mutleqdir)
+
+
+Oz komputerimiz
+- ssh-keygen      #(google terminalda öz terminalımıza girməküçün key generate eliyir)
+- cat ~/.ssh/id_rsa.pub       #(kodu copy edirik)
+
+
+Google server 
++ nano .ssh/authorized_keys      #(ssh kodumuzu paste edib save edirik)
+
+
+Oz komputerimiz
+- ssh root@${ip adress}       #(google servere qosuluruq)
+
+
+Oz komputerimiz kecid etdiyimiz serverde
+- adduser ${username}      #(password yazirig)
+- usermod -aG sudo ${username}      #(useri superuser edirik)
+- apt update      #(evvelce update edirik)
+- apt install docker.io       #(docker-i yukleyirik)
+- docker --version      #(dockeri yuklediyini yoxlayirig)
+- apt install docker-compose     #(docker-compose-u yukleyirik)
+- docker-compose --version
+- apt install git       #(git yukleyirik)
+- git --version      #(git yuklendiyini yoxlayirih)
+- usermod -aG docker ${username}       #(sudo yazmadan docker-compose etmek ucun)
+- sudo su - ${username}       #(yaratdigimiz user-e kecirik)
+
+
+Oz komputerimiz
+github-da yeni repo acirig
+- git init
+- git remote add origin ${kohne github proyektinin url-i} #(kohne proyekti yeni repoya kocurmek ucun)
+`.gitignore` adli fayl yaradirig #(github-a yükləməyini istəmədiyimiz fayllar üçün)
+- git add.
+- git commit -m ''
+- git push origin master
+
+
+Oz komputerimiz kecid etdiyimiz serverde
+- git clone ${yeni proyektin url-i}
+- cd ${project_name}       #(proyektin oldugu foldere kecirik)
+- docker-compose up -d --build      #(serverde docker-i up edirik)
+- docker ps -a       #(web servisin oldugu container id copy edirik)
+- docker exec -it ${docker-container id} bash      #(docker-deki komputerimize kecirik)
+- ./manage.py migrate
+- ./manage.py loaddata data.json

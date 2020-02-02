@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+single
+{% endblock title %}
+
+{% block  body%}
+
+    <section class="ftco-section contact-section create-story">
+        <div class="container">
+            <div class="row block-9 justify-content-center">
+                <div class="col-md-6 order-md-last d-flex">
+                    <form action="" method='post' class="bg-light p-5 contact-form" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        {{ form.non_field_errors }}
+                        {{ form.errors }}                        
+                        <a class="navbar-brand center" href="#">Stories<span>.</span></a>
+
+                        <div class="form-group">
+                            {{ form.title }}
+                            {{ form.title.errors }}
+                        </div>
+                        <div class="form-group">
+                            {{ form.description }}
+                            {{ form.description.errors }}
+                        </div>
+                        <div class="form-group">
+                            {{ form.category }}
+                            {{ form.category.errors }}
+                        </div>
+                        <div class="form-group">
+                            {{ form.image }}
+                            {{ form.category.errors }}
+                        </div>
+
+
+                        <div class="form-group">
+                            {% url 'stories:create-story' as create_story_url %}
+                            {% if request.path ==  create_story_url %}
+                                <input type="submit" value="Create" class="btn btn-primary py-3 px-5">
+                            {% else %}
+                                <input type="submit" value="Update" class="btn btn-primary py-3 px-5">
+                            {% endif %}
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+{# 1. BUTTON TO TRIGGER THE ACTION #}
+<button type="button" class="btn btn-primary js-upload-photos">
+  <span class="glyphicon glyphicon-cloud-upload"></span> Upload photos
+</button>
+
+{# 2. FILE INPUT TO BE USED BY THE PLUG-IN #}
+<input id="fileupload" type="file" name="image" multiple
+       style="display: none;"
+       data-url="{% url 'stories:test' %}"
+       data-form-data='{"csrfmiddlewaretoken": "{{ csrf_token }}"}'>
+
+{# 3. TABLE TO DISPLAY THE UPLOADED PHOTOS #}
+<table id="gallery" class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Photo</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for photo in photos %}
+      <tr>
+        <td><a href="{{ photo.file.url }}">{{ photo.file.name }}</a></td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+    {% endblock body %}

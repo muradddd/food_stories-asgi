@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% url 'stories:create-story' as create_story_url %}
+{% block title %}
+singlesd
+{% endblock title %}
+
+{% block  body %}
+
+<section class="ftco-section contact-section create-story">
+    <div class="container">
+        <div class="row block-9 justify-content-center">
+            <div class="col-md-6 order-md-last d-flex">
+                <form autocomplete="off" id='myform' action="{{ create_story_url }}" method='post' class="bg-light p-5 contact-form"
+                    enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {{ form.non_field_errors }}
+                    {{ form.errors }}
+                    {{ form.media }}
+                    <a class="navbar-brand center" href="#">Stories<span>.</span></a>
+
+                    <div class="form-group">
+                        {{ form.title }}
+                    </div>
+                    <div class="form-group">
+                        {{ form.description }}
+                        {{ form.description.errors }}
+                    </div>
+                    <div class="form-group">
+                        {{ form.cover.label_tag }}
+                        {{ form.cover }}
+                        {{ form.cover.errors }}
+                    </div>
+                    <div class="form-group">
+                        {{ form.category }}
+                        {{ form.category.errors }}
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="tag" placeholder="Insert your tags (seperate with &quot; ; &quot;)" class="form-control" id="id_tag" style="display: none;">
+                    </div>
+
+
+                    <div class="form-group">
+                        {% if request.path ==  create_story_url %}
+                            <input type="submit" value="Create" class="btn btn-primary py-3 px-5">
+                        {% else %}
+                            <input type="submit" value="Update" class="btn btn-primary py-3 px-5">
+                        {% endif %}
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock body %}

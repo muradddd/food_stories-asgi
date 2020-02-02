@@ -1,0 +1,2529 @@
+[
+{
+    "model": "sessions.session",
+    "pk": "03js72og0oxanoq9aw105iso8o2umg3r",
+    "fields": {
+        "session_data": "ZmI4MWNhMzVlNzM0ZDExZDczZjZkZWQxNDE1ZjJiMzdlNGZlNzg4ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmZWI5N2RhNjdmOTQxZWVkZDFlY2M3ODM2YTBiZmYyOTRkZmI3YzExIn0=",
+        "expire_date": "2020-02-03T01:17:01.995"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "06g4y5ghul3zyoqc9iiis5qwrpgjvlu6",
+    "fields": {
+        "session_data": "ZmI4MWNhMzVlNzM0ZDExZDczZjZkZWQxNDE1ZjJiMzdlNGZlNzg4ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmZWI5N2RhNjdmOTQxZWVkZDFlY2M3ODM2YTBiZmYyOTRkZmI3YzExIn0=",
+        "expire_date": "2020-02-16T09:51:57.914"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "3esa7nbbm03ajye04fxflw2mj5ke9wb3",
+    "fields": {
+        "session_data": "ZjRmZjBkYTFiNDM3YTJmZDM5ZDJlYTYwMTlkZTRiYWFmMWI2N2U2MDp7fQ==",
+        "expire_date": "2020-02-12T04:27:40.815"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "3nop6qp93tnvu4ipuq6dnximfib7n9d7",
+    "fields": {
+        "session_data": "ZjRmZjBkYTFiNDM3YTJmZDM5ZDJlYTYwMTlkZTRiYWFmMWI2N2U2MDp7fQ==",
+        "expire_date": "2020-02-12T04:23:45.118"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "72s4or209vfzuzj726wjr624lcrloi8y",
+    "fields": {
+        "session_data": "ZmI4MWNhMzVlNzM0ZDExZDczZjZkZWQxNDE1ZjJiMzdlNGZlNzg4ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmZWI5N2RhNjdmOTQxZWVkZDFlY2M3ODM2YTBiZmYyOTRkZmI3YzExIn0=",
+        "expire_date": "2020-02-06T11:17:51.454"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "82pjfloiszbaftwj9gw269624btj7kjl",
+    "fields": {
+        "session_data": "ZjRmZjBkYTFiNDM3YTJmZDM5ZDJlYTYwMTlkZTRiYWFmMWI2N2U2MDp7fQ==",
+        "expire_date": "2020-02-12T04:23:18.283"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "939f98lugibi342b0p7ebtpbgxfsvmmy",
+    "fields": {
+        "session_data": "MDg3ODk5OWZkOThkNDBmOTkyOGVlYzc4YWExMDNkZDdlYzc0ZjFmZDp7InNvY2lhbGFjY291bnRfc3RhdGUiOlt7InByb2Nlc3MiOiJsb2dpbiIsInNjb3BlIjoiIiwiYXV0aF9wYXJhbXMiOiIifSwiTnVPMVFEOGdENmMxIl19",
+        "expire_date": "2020-02-02T00:04:22.734"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "96xlz1rb6yof7cxi018x0pv230t6fvrw",
+    "fields": {
+        "session_data": "ZmI4MWNhMzVlNzM0ZDExZDczZjZkZWQxNDE1ZjJiMzdlNGZlNzg4ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmZWI5N2RhNjdmOTQxZWVkZDFlY2M3ODM2YTBiZmYyOTRkZmI3YzExIn0=",
+        "expire_date": "2020-02-07T13:35:52.658"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9twa5q6hjv39us4p1nunixqfez4b7d1y",
+    "fields": {
+        "session_data": "ZmI4MWNhMzVlNzM0ZDExZDczZjZkZWQxNDE1ZjJiMzdlNGZlNzg4ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmZWI5N2RhNjdmOTQxZWVkZDFlY2M3ODM2YTBiZmYyOTRkZmI3YzExIn0=",
+        "expire_date": "2020-02-02T06:16:49.806"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "dq057jispvcgy6uazitfuf5xwtbz5ixm",
+    "fields": {
+        "session_data": "NmE4MGY3NzUxNDhlYTJjNWEyYWIzZTA3OTY4MWRkNDY3YzZjYmY3ODp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyNTc1MjE2ODI0NjA5YzNlYWRmYTA2ZDA4ZTUxNGI1N2NhMzdhZDA3In0=",
+        "expire_date": "2020-01-25T05:06:36.274"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "eqh8uvso2gnyo32wn7ugl07wjm18fx9a",
+    "fields": {
+        "session_data": "ZjRmZjBkYTFiNDM3YTJmZDM5ZDJlYTYwMTlkZTRiYWFmMWI2N2U2MDp7fQ==",
+        "expire_date": "2020-02-12T04:20:41.331"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "g822hy08llkh34lb3s3yjgo15wjury54",
+    "fields": {
+        "session_data": "ZTRhMTYyN2JhNjg5ZTM1ODIwNDJhNzM1OTM5MTEwZDAxMjc4MTQ1Mjp7InNvY2lhbGFjY291bnRfc3RhdGUiOlt7InByb2Nlc3MiOiJsb2dpbiIsInNjb3BlIjoiIiwiYXV0aF9wYXJhbXMiOiIifSwielZIMEdVMHNyazQzIl0sIl9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxMmM3YTU1MjBkYmZlNzJiMmM2YmExNjZjMTUxMzdmYjU4ODI5YWIzIn0=",
+        "expire_date": "2020-02-11T21:02:55.735"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "if3btrwxax8zi8rgwebvojahnzwaw0xl",
+    "fields": {
+        "session_data": "ZjRmZjBkYTFiNDM3YTJmZDM5ZDJlYTYwMTlkZTRiYWFmMWI2N2U2MDp7fQ==",
+        "expire_date": "2020-02-12T04:30:08.415"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "kjxs1qpgc9wy3oajaizwd5jvods8h1wq",
+    "fields": {
+        "session_data": "ZjRmZjBkYTFiNDM3YTJmZDM5ZDJlYTYwMTlkZTRiYWFmMWI2N2U2MDp7fQ==",
+        "expire_date": "2020-02-12T04:21:34.664"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ms66jba2ei6sfbfnuvtg8hv4rryflpxf",
+    "fields": {
+        "session_data": "ZmI4MWNhMzVlNzM0ZDExZDczZjZkZWQxNDE1ZjJiMzdlNGZlNzg4ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmZWI5N2RhNjdmOTQxZWVkZDFlY2M3ODM2YTBiZmYyOTRkZmI3YzExIn0=",
+        "expire_date": "2020-02-03T04:19:02.215"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "mtcidzcf8h2gfwubf6yxnphy736tt37c",
+    "fields": {
+        "session_data": "ZmI4MWNhMzVlNzM0ZDExZDczZjZkZWQxNDE1ZjJiMzdlNGZlNzg4ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmZWI5N2RhNjdmOTQxZWVkZDFlY2M3ODM2YTBiZmYyOTRkZmI3YzExIn0=",
+        "expire_date": "2020-02-12T05:13:30.160"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "n2eidfhzrlddzljaef95ujrtgetkzfnf",
+    "fields": {
+        "session_data": "ZWM1NDYyYjAwYTMwZDBkYTUwZGRjZmJlYjViNDE2MTVhYTIzNDMwNTp7Il9hdXRoX3VzZXJfaWQiOiIzIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJjZjMyZjIyODZmNDEyMmU0YjMzZmE2NzM2YzMzZGQ3YzFmZGVmMGYwIn0=",
+        "expire_date": "2020-01-28T00:21:57.063"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "olm6a0ckcm1apd8y0wizjx6507p6juws",
+    "fields": {
+        "session_data": "ZmMxNmI1MTlmNmQ0YTZhODhkNjA2OTRiNGY1ZTcxYWFjMGIyYmMxNTp7InNvY2lhbGFjY291bnRfc3RhdGUiOlt7InByb2Nlc3MiOiJsb2dpbiIsInNjb3BlIjoiIiwiYXV0aF9wYXJhbXMiOiIifSwiZUFvdVFSZ1dyNGpPIl19",
+        "expire_date": "2020-02-02T00:05:39.856"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rfz8l62tzilv2ax5sns1wgxl25bjv00p",
+    "fields": {
+        "session_data": "NDRiMDM0YWRkZmM4ODRlY2Q1NDRhMzUyYzY4ZGJkZDk3MzdjYmEwZDp7InNvY2lhbGFjY291bnRfc3RhdGUiOlt7InByb2Nlc3MiOiJsb2dpbiIsInNjb3BlIjoiIiwiYXV0aF9wYXJhbXMiOiIifSwiTDRqYWgzbGF0QXRsIl19",
+        "expire_date": "2020-02-02T00:29:00.208"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "s9l72pno94glxifvvgim4p7a1bubmd9m",
+    "fields": {
+        "session_data": "MzlkNWZiZjc1ZDRiZmM1OWVlNDEyNGUyY2NlY2YxMzRmMTFlMGQ4Yzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyMzExYWZiYzNhYTQ0NDgyNzM2NTZhMTEzMTJkM2QxMjE0YjViOGQxIn0=",
+        "expire_date": "2020-01-29T12:21:33.397"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ssm7rvdw63trvn77fc1gk6v6hf1n2zkp",
+    "fields": {
+        "session_data": "ZjRmZjBkYTFiNDM3YTJmZDM5ZDJlYTYwMTlkZTRiYWFmMWI2N2U2MDp7fQ==",
+        "expire_date": "2020-02-12T04:26:36.283"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "t8xktf8nisllbtogj6y628qf1i1ut29s",
+    "fields": {
+        "session_data": "NmE4MGY3NzUxNDhlYTJjNWEyYWIzZTA3OTY4MWRkNDY3YzZjYmY3ODp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyNTc1MjE2ODI0NjA5YzNlYWRmYTA2ZDA4ZTUxNGI1N2NhMzdhZDA3In0=",
+        "expire_date": "2020-01-19T23:06:34.384"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "u0vjxexq03sgx2f64n0tu7b1rr3njisu",
+    "fields": {
+        "session_data": "OTFiNmQ2ODI0ZWRkMGQ2MDYwZTU5MzlhN2ZmZmIyZjcwYTZhNGViMDp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyM2ZmYzgxZGE3N2RmZWE2ZTg3YWQ0NTJjZDZiZjBhOThlMmFhNzM1In0=",
+        "expire_date": "2020-01-19T22:12:20.710"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "uriufjty5ntkdnpd6u3r9yc2ccbi417k",
+    "fields": {
+        "session_data": "ZmI4MWNhMzVlNzM0ZDExZDczZjZkZWQxNDE1ZjJiMzdlNGZlNzg4ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmZWI5N2RhNjdmOTQxZWVkZDFlY2M3ODM2YTBiZmYyOTRkZmI3YzExIn0=",
+        "expire_date": "2020-02-03T04:33:57.380"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "uwzxn21vqjddg35tfap2offt8e5t66s4",
+    "fields": {
+        "session_data": "ZmI4MWNhMzVlNzM0ZDExZDczZjZkZWQxNDE1ZjJiMzdlNGZlNzg4ZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmZWI5N2RhNjdmOTQxZWVkZDFlY2M3ODM2YTBiZmYyOTRkZmI3YzExIn0=",
+        "expire_date": "2020-02-11T18:55:25.266"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "vdh2a7fj6wlyzcj41ebtcizlwjqpg23a",
+    "fields": {
+        "session_data": "M2M2MDZjOGExOTY0MGFhNzc2OGU4MzE2ZmEwYzU0NDc1ZDY1NjI4MTp7InNvY2lhbGFjY291bnRfc3RhdGUiOlt7InByb2Nlc3MiOiJsb2dpbiIsInNjb3BlIjoiIiwiYXV0aF9wYXJhbXMiOiIifSwiNUd0bnJvUEh2M2UwIl19",
+        "expire_date": "2020-02-02T00:26:43.855"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ybvjvzk0b1k41mmy3zuo895tkvdgqwtu",
+    "fields": {
+        "session_data": "YzdiMmEzNGQ1MzVjZTBkMGY0MjJlNjhkMWEyODc2YTFjMjNmZmY2ODp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxMTg3NjMwZjlkYzMyYTVhYWUzODU4MjM3ZWY0YTY2Y2I3OTExOWYyIn0=",
+        "expire_date": "2020-01-19T21:52:51.210"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "yvc3jgkjp51wxg2x23nq02cc0ueku39e",
+    "fields": {
+        "session_data": "NmE4MGY3NzUxNDhlYTJjNWEyYWIzZTA3OTY4MWRkNDY3YzZjYmY3ODp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyNTc1MjE2ODI0NjA5YzNlYWRmYTA2ZDA4ZTUxNGI1N2NhMzdhZDA3In0=",
+        "expire_date": "2020-01-26T21:45:21.863"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "z8m4h0acry7d9atmf4582zvs4gky46on",
+    "fields": {
+        "session_data": "MDE3ODVhYzU3YTE5NTExNTlhNGRmZWRlNTdiNjE4YWJmNmNkOTYwZTp7Il9hdXRoX3VzZXJfaWQiOiIxMCIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImFsbGF1dGguYWNjb3VudC5hdXRoX2JhY2tlbmRzLkF1dGhlbnRpY2F0aW9uQmFja2VuZCIsIl9hdXRoX3VzZXJfaGFzaCI6IjI2ZmJkY2E3NGU3YmUwMjcxYTUxMGI5YTM1YjZjZTE0ZTg1OTliMzIifQ==",
+        "expire_date": "2020-02-02T00:16:43.775"
+    }
+},
+{
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+        "domain": "http://localhost:8000/",
+        "name": "localhost"
+    }
+},
+{
+    "model": "stories.category",
+    "pk": 1,
+    "fields": {
+        "name": "Foods",
+        "image": "",
+        "created_at": "2020-01-05T23:07:47.307",
+        "updated_at": "2020-01-05T23:07:47.307"
+    }
+},
+{
+    "model": "stories.category",
+    "pk": 2,
+    "fields": {
+        "name": "Drinks",
+        "image": "",
+        "created_at": "2020-01-05T23:07:56.938",
+        "updated_at": "2020-01-05T23:07:56.938"
+    }
+},
+{
+    "model": "stories.category",
+    "pk": 3,
+    "fields": {
+        "name": "Lifestyle",
+        "image": "",
+        "created_at": "2020-01-05T23:08:02.218",
+        "updated_at": "2020-01-05T23:08:02.218"
+    }
+},
+{
+    "model": "stories.category",
+    "pk": 4,
+    "fields": {
+        "name": "Travel",
+        "image": "",
+        "created_at": "2020-01-05T23:08:10.389",
+        "updated_at": "2020-01-05T23:08:10.389"
+    }
+},
+{
+    "model": "stories.category",
+    "pk": 5,
+    "fields": {
+        "name": "Tour",
+        "image": "",
+        "created_at": "2020-01-05T23:08:51.336",
+        "updated_at": "2020-01-05T23:08:51.336"
+    }
+},
+{
+    "model": "stories.tag",
+    "pk": 13,
+    "fields": {
+        "name": "FOODS",
+        "is_active": true,
+        "created_at": "2020-01-20T03:57:56.402",
+        "updated_at": "2020-01-20T03:57:56.402"
+    }
+},
+{
+    "model": "stories.tag",
+    "pk": 14,
+    "fields": {
+        "name": "DELICIOUS",
+        "is_active": true,
+        "created_at": "2020-01-20T03:57:56.424",
+        "updated_at": "2020-01-20T03:57:56.424"
+    }
+},
+{
+    "model": "stories.tag",
+    "pk": 15,
+    "fields": {
+        "name": "MMMMM",
+        "is_active": true,
+        "created_at": "2020-01-20T03:57:56.445",
+        "updated_at": "2020-01-20T03:57:56.445"
+    }
+},
+{
+    "model": "stories.tag",
+    "pk": 17,
+    "fields": {
+        "name": "ASD",
+        "is_active": false,
+        "created_at": "2020-01-24T16:19:38.123",
+        "updated_at": "2020-01-24T16:19:38.123"
+    }
+},
+{
+    "model": "stories.tag",
+    "pk": 18,
+    "fields": {
+        "name": "",
+        "is_active": false,
+        "created_at": "2020-01-24T17:32:08.573",
+        "updated_at": "2020-01-24T17:32:08.573"
+    }
+},
+{
+    "model": "stories.tag",
+    "pk": 19,
+    "fields": {
+        "name": "ASDASDAD",
+        "is_active": false,
+        "created_at": "2020-01-29T02:16:40.894",
+        "updated_at": "2020-01-29T02:16:40.894"
+    }
+},
+{
+    "model": "stories.subscribe",
+    "pk": 16,
+    "fields": {
+        "email": "murad.rustemzade@gmail.com",
+        "created_at": "2020-01-09T17:06:17.087",
+        "updated_at": "2020-01-09T17:06:17.087"
+    }
+},
+{
+    "model": "stories.contact",
+    "pk": 3,
+    "fields": {
+        "name": "Murad Rustemzade",
+        "email": "murad.rustemzade@gmail.com",
+        "subject": "Sikayet",
+        "message": "asdasonafsonasfnaf",
+        "created_at": "2020-01-05T04:16:18.807",
+        "updated_at": "2020-01-05T04:16:18.807"
+    }
+},
+{
+    "model": "stories.contact",
+    "pk": 4,
+    "fields": {
+        "name": "Orxan Business",
+        "email": "a@gmail.com",
+        "subject": "asd",
+        "message": "asd",
+        "created_at": "2020-01-05T17:56:11.567",
+        "updated_at": "2020-01-05T17:56:11.567"
+    }
+},
+{
+    "model": "stories.contact",
+    "pk": 5,
+    "fields": {
+        "name": "ya allah",
+        "email": "asd@gmail.com",
+        "subject": "Sikayet",
+        "message": "asdadad",
+        "created_at": "2020-01-05T17:57:11.822",
+        "updated_at": "2020-01-05T17:57:11.822"
+    }
+},
+{
+    "model": "stories.contact",
+    "pk": 6,
+    "fields": {
+        "name": "Murad Rustemzade",
+        "email": "murad.rustemzade@gmail.com",
+        "subject": "asd",
+        "message": "asd",
+        "created_at": "2020-01-05T23:34:15.154",
+        "updated_at": "2020-01-05T23:34:15.154"
+    }
+},
+{
+    "model": "stories.contact",
+    "pk": 7,
+    "fields": {
+        "name": "Murad Rustemzade",
+        "email": "murad.rustemzade@gmail.com",
+        "subject": "asd",
+        "message": "sad",
+        "created_at": "2020-01-07T04:22:25.158",
+        "updated_at": "2020-01-07T04:22:25.158"
+    }
+},
+{
+    "model": "stories.contact",
+    "pk": 8,
+    "fields": {
+        "name": "Orxan Business",
+        "email": "asdasd@mail.ru",
+        "subject": "asdsad",
+        "message": "asdasd",
+        "created_at": "2020-01-07T04:34:08.323",
+        "updated_at": "2020-01-07T04:34:08.323"
+    }
+},
+{
+    "model": "stories.contact",
+    "pk": 9,
+    "fields": {
+        "name": "Murad Rustemzade",
+        "email": "murad.rustemzade@gmail.com",
+        "subject": "asd",
+        "message": "555",
+        "created_at": "2020-01-07T04:52:18.860",
+        "updated_at": "2020-01-07T04:52:18.860"
+    }
+},
+{
+    "model": "stories.contact",
+    "pk": 10,
+    "fields": {
+        "name": "Murad Rustemzade",
+        "email": "murad.rustemzade@gmail.com",
+        "subject": "asd",
+        "message": "sdsd",
+        "created_at": "2020-01-07T21:32:12.463",
+        "updated_at": "2020-01-07T21:32:12.463"
+    }
+},
+{
+    "model": "stories.contact",
+    "pk": 11,
+    "fields": {
+        "name": "Orxan Business",
+        "email": "murad.rustemzade@gmail.com",
+        "subject": "asd",
+        "message": "egegeg",
+        "created_at": "2020-01-07T23:50:58.990",
+        "updated_at": "2020-01-07T23:50:58.990"
+    }
+},
+{
+    "model": "stories.contact",
+    "pk": 12,
+    "fields": {
+        "name": "Murad Rustemzade",
+        "email": "murad.rustemzade@gmail.com",
+        "subject": "asd",
+        "message": "dvdvdv",
+        "created_at": "2020-01-09T17:08:08.863",
+        "updated_at": "2020-01-09T17:08:08.863"
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$180000$QzL8TYcmFk4c$/UvrWi3zF+IydhJtBAVHDJASutvishPC+ShKgR8F7Ec=",
+        "last_login": "2020-02-02T09:51:57.902",
+        "is_superuser": true,
+        "username": "murad",
+        "first_name": "AD",
+        "last_name": "SA",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-01-04T00:52:09",
+        "bio": "sddddsd",
+        "email": "asd@gmail.com",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$180000$y9oS5DBrUxRr$V2Fw4F9ZQxMOCC/mXJ5xK+fKhLk0mQ1g8L18/IPSeKM=",
+        "last_login": "2020-01-29T04:31:23.708",
+        "is_superuser": false,
+        "username": "muraddd",
+        "first_name": "Murad",
+        "last_name": "Rustemzade",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2020-01-05T19:15:35",
+        "bio": "burada sizin reklaminiz ola bilerdi",
+        "email": "murad.rustemzade@gmail.com",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$180000$EyQBpA0bMcc9$terbKeZLMqhPdqT25Z1xp9To+qLlHNW6vhdP6YapFw4=",
+        "last_login": "2020-01-14T00:21:56",
+        "is_superuser": false,
+        "username": "Boomer",
+        "first_name": "Filank\u0259s",
+        "last_name": "B\u0259hn\u0259nk\u0259sov",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2020-01-14T00:19:52",
+        "bio": "a",
+        "email": "msurad.rustemzade@gmail.com",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 18,
+    "fields": {
+        "password": "!YoZVgHzzspssHlrI4zdv51ZJVg9Et4YBrZLuWfnL",
+        "last_login": "2020-01-19T00:53:49.902",
+        "is_superuser": false,
+        "username": "murad7",
+        "first_name": "Murad",
+        "last_name": "Rustemzade",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2020-01-19T00:44:39.344",
+        "bio": "",
+        "email": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 20,
+    "fields": {
+        "password": "!5JryOf3LuEEISfzD3Femp3hF60FYiQvnylvwffbn",
+        "last_login": "2020-01-19T00:53:35.246",
+        "is_superuser": false,
+        "username": "murad8",
+        "first_name": "Murad",
+        "last_name": "Rustemzade",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2020-01-19T00:53:35.091",
+        "bio": "",
+        "email": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 21,
+    "fields": {
+        "password": "!G5fFDkrtBmEYCTSwVi1WuAHil34TbTyb4McLVt6P",
+        "last_login": "2020-01-19T00:57:37.613",
+        "is_superuser": false,
+        "username": "murad0",
+        "first_name": "Murad",
+        "last_name": "Rustemzade",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2020-01-19T00:57:04.589",
+        "bio": "qwe",
+        "email": "a@gmail.com",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "name": "Facebook-login",
+        "client_id": "174642820309847",
+        "secret": "4282ecbfd4372dff6778e5baa01053a6",
+        "key": "",
+        "sites": [
+            [
+                "http://localhost:8000/"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "name": "Google login",
+        "client_id": "182942943819-4h1h0ef9kbmkpouecdro2fo7379i42oe.apps.googleusercontent.com",
+        "secret": "zTUdQNP2gI2opoU_FXZHQwTt",
+        "key": "",
+        "sites": [
+            [
+                "http://localhost:8000/"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 8,
+    "fields": {
+        "user": [
+            "murad7"
+        ],
+        "provider": "google",
+        "uid": "107745699989367254079",
+        "last_login": "2020-01-19T00:53:49.743",
+        "date_joined": "2020-01-19T00:44:39.377",
+        "extra_data": "{\"id\": \"107745699989367254079\", \"name\": \"Murad Rustemzade\", \"given_name\": \"Murad\", \"family_name\": \"Rustemzade\", \"picture\": \"https://lh5.googleusercontent.com/--Cboe-2CgaQ/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcLVP_EqB-hPJvrGjD0S_yhdRhlbw/photo.jpg\", \"locale\": \"tr\"}"
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 9,
+    "fields": {
+        "user": [
+            "murad8"
+        ],
+        "provider": "facebook",
+        "uid": "3033678899999694",
+        "last_login": "2020-01-19T00:53:35.158",
+        "date_joined": "2020-01-19T00:53:35.158",
+        "extra_data": "{\"id\": \"3033678899999694\", \"name\": \"Murad Rustemzade\", \"first_name\": \"Murad\", \"last_name\": \"Rustemzade\"}"
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 10,
+    "fields": {
+        "user": [
+            "murad0"
+        ],
+        "provider": "google",
+        "uid": "116286924580404295077",
+        "last_login": "2020-01-19T00:57:37.566",
+        "date_joined": "2020-01-19T00:57:04.633",
+        "extra_data": "{\"id\": \"116286924580404295077\", \"name\": \"Murad Rustemzade\", \"given_name\": \"Murad\", \"family_name\": \"Rustemzade\", \"picture\": \"https://lh3.googleusercontent.com/a-/AAuE7mDeMqSJT3prR4MgeksVWoNn4xgMEwqXD9ogXoCv\", \"locale\": \"en\"}"
+    }
+},
+{
+    "model": "socialaccount.socialtoken",
+    "pk": 8,
+    "fields": {
+        "app": 2,
+        "account": 8,
+        "token": "ya29.Il-6B0ssGweeSLeIpUHA4P_ArPGoVnIMXOM-qXi_xJe6njaSptnbCbqFlIVfE5CXKrJpvduymXPJZqSS3v-orm5hsBoYtmR686H_wbHr7iiQWENeKWxadoB8NCYrk6efvg",
+        "token_secret": "",
+        "expires_at": "2020-01-19T01:53:48.474"
+    }
+},
+{
+    "model": "socialaccount.socialtoken",
+    "pk": 9,
+    "fields": {
+        "app": 1,
+        "account": 9,
+        "token": "EAACe1jNEY1cBAGC60N7os7DpBn9HnnoInmnVceW9VUBrlPmAc0ZAm8nkXktZBxOte6Q1NkZBZCDwSHM7DW5zZB75UVchEuwrwKPJpBvPNzY8XayMDmX2koNNPqNX7ZB5IadCeXhoOdoCQCFrJin8uTNyS8AOXyKjQb12HjpT7XoQZDZD",
+        "token_secret": "",
+        "expires_at": "2020-03-18T23:55:57.859"
+    }
+},
+{
+    "model": "socialaccount.socialtoken",
+    "pk": 10,
+    "fields": {
+        "app": 2,
+        "account": 10,
+        "token": "ya29.Il-6B1ZAEE13aidEKxGkK5l-B3VWYAyO41uC0VnJNNLUd7YBh20O0nQwXCyUrPvwTDUY1pr7opyHLNlEQ4fXzUlVEiTTP3Wkr9BrL-Q42IN_Fxdnk8pZp6gGrltrDUrdmw",
+        "token_secret": "",
+        "expires_at": "2020-01-19T01:57:36.296"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 1,
+    "fields": {
+        "text": "wd",
+        "parent": null,
+        "user": [
+            "murad"
+        ],
+        "story": 95,
+        "created_at": "2020-02-02T09:47:06.017",
+        "updated_at": "2020-02-02T09:47:06.017"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 2,
+    "fields": {
+        "text": "ds",
+        "parent": 1,
+        "user": [
+            "murad"
+        ],
+        "story": 95,
+        "created_at": "2020-02-02T09:49:50.592",
+        "updated_at": "2020-02-02T09:49:50.592"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 3,
+    "fields": {
+        "text": "d",
+        "parent": 2,
+        "user": [
+            "murad"
+        ],
+        "story": 95,
+        "created_at": "2020-02-02T09:49:55.191",
+        "updated_at": "2020-02-02T09:49:55.191"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 4,
+    "fields": {
+        "text": "sd",
+        "parent": null,
+        "user": [
+            "murad"
+        ],
+        "story": 92,
+        "created_at": "2020-02-02T09:59:10.330",
+        "updated_at": "2020-02-02T09:59:10.330"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 5,
+    "fields": {
+        "text": "",
+        "parent": null,
+        "user": [
+            "murad"
+        ],
+        "story": 92,
+        "created_at": "2020-02-02T09:59:10.376",
+        "updated_at": "2020-02-02T09:59:10.376"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 6,
+    "fields": {
+        "text": "sd",
+        "parent": 5,
+        "user": [
+            "murad"
+        ],
+        "story": 92,
+        "created_at": "2020-02-02T09:59:26.767",
+        "updated_at": "2020-02-02T09:59:26.767"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 7,
+    "fields": {
+        "text": "d",
+        "parent": 6,
+        "user": [
+            "murad"
+        ],
+        "story": 92,
+        "created_at": "2020-02-02T09:59:29.251",
+        "updated_at": "2020-02-02T09:59:29.251"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 8,
+    "fields": {
+        "text": "d",
+        "parent": null,
+        "user": [
+            "murad"
+        ],
+        "story": 92,
+        "created_at": "2020-02-02T09:59:38.058",
+        "updated_at": "2020-02-02T09:59:38.058"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 9,
+    "fields": {
+        "text": "d",
+        "parent": 8,
+        "user": [
+            "murad"
+        ],
+        "story": 92,
+        "created_at": "2020-02-02T09:59:51.365",
+        "updated_at": "2020-02-02T09:59:51.365"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 10,
+    "fields": {
+        "text": "ds",
+        "parent": null,
+        "user": [
+            "murad"
+        ],
+        "story": 94,
+        "created_at": "2020-02-02T10:00:45.289",
+        "updated_at": "2020-02-02T10:00:45.289"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 11,
+    "fields": {
+        "text": "ds",
+        "parent": 10,
+        "user": [
+            "murad"
+        ],
+        "story": 94,
+        "created_at": "2020-02-02T10:01:00.800",
+        "updated_at": "2020-02-02T10:01:00.800"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 12,
+    "fields": {
+        "text": "asd",
+        "parent": null,
+        "user": [
+            "murad"
+        ],
+        "story": 94,
+        "created_at": "2020-02-02T10:01:05.257",
+        "updated_at": "2020-02-02T10:01:05.257"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 13,
+    "fields": {
+        "text": "d",
+        "parent": 12,
+        "user": [
+            "murad"
+        ],
+        "story": 94,
+        "created_at": "2020-02-02T10:01:09.979",
+        "updated_at": "2020-02-02T10:01:09.979"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 14,
+    "fields": {
+        "text": "q",
+        "parent": 11,
+        "user": [
+            "murad"
+        ],
+        "story": 94,
+        "created_at": "2020-02-02T10:01:12.273",
+        "updated_at": "2020-02-02T10:01:12.273"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 15,
+    "fields": {
+        "text": "d",
+        "parent": 10,
+        "user": [
+            "murad"
+        ],
+        "story": 94,
+        "created_at": "2020-02-02T10:01:15.591",
+        "updated_at": "2020-02-02T10:01:15.591"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 16,
+    "fields": {
+        "text": "d",
+        "parent": 15,
+        "user": [
+            "murad"
+        ],
+        "story": 94,
+        "created_at": "2020-02-02T10:01:18.179",
+        "updated_at": "2020-02-02T10:01:18.179"
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 92,
+    "fields": {
+        "title": "Yeni xeber",
+        "description": "<h3><a href=\"https://django-ckeditor.readthedocs.io/en/latest/#id44\">Optional for file upload</a></h3>\r\n\r\n<ol>\r\n\t<li>All uploaded files are slugified by default. To disable this feature, set&nbsp;<code>CKEDITOR_UPLOAD_SLUGIFY_FILENAME</code>&nbsp;to&nbsp;<code>False</code>.</li>\r\n\t<li>Set the&nbsp;<code>CKEDITOR_RESTRICT_BY_USER</code>&nbsp;setting to&nbsp;<code>True</code>&nbsp;in the project&rsquo;s&nbsp;<code>settings.py</code>&nbsp;file (default&nbsp;<code>False</code>). This restricts access to uploaded images to the uploading user (e.g. each user only sees and uploads their own images). Upload paths are prefixed by the string returned by&nbsp;<code>get_username</code>. If&nbsp;<code>CKEDITOR_RESTRICT_BY_USER</code>&nbsp;is set to a string, the named property is used instead. Superusers can still see all images.&nbsp;<strong>NOTE</strong>: This restriction is only enforced within the CKEditor media browser.</li>\r\n\t<li>Set the&nbsp;<code>CKEDITOR_BROWSE_SHOW_DIRS</code>&nbsp;setting to&nbsp;<code>True</code>&nbsp;to show directories on the &ldquo;Browse Server&rdquo; page. This enables image grouping by directory they are stored in, sorted by date.</li>\r\n\t<li>Set the&nbsp;<code>CKEDITOR_RESTRICT_BY_DATE</code>&nbsp;setting to&nbsp;<code>True</code>&nbsp;to bucked uploaded files by year/month/day.<img alt=\"\" src=\"/media/uploads/murad/2020/01/28/2019-11-24-002640.jpg\" style=\"height:300px; width:100%\" /><img alt=\"\" src=\"/media/uploads/murad/2020/01/28/2019-11-24-002640.jpg\" style=\"height:720px; width:1280px\" /></li>\r\n</ol>",
+        "cover": "cover/2020-01-28-173747.jpg",
+        "user": [
+            "murad"
+        ],
+        "category": 1,
+        "created_at": "2020-01-28T20:39:13.838",
+        "updated_at": "2020-01-28T21:11:32.177",
+        "tag": [
+            14,
+            15
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 94,
+    "fields": {
+        "title": "asas",
+        "description": "<p><img alt=\"\" src=\"/media/uploads/murad/2020/01/28/2019-11-24-002640_ZdvTe4z.jpg\" style=\"height:720px; width:1280px\" /></p>",
+        "cover": "cover/2019-11-24-002640_eRDtLoD.jpg",
+        "user": [
+            "murad"
+        ],
+        "category": 1,
+        "created_at": "2020-01-28T21:55:14.062",
+        "updated_at": "2020-01-28T21:55:14.116",
+        "tag": [
+            17
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 95,
+    "fields": {
+        "title": "Ela2332",
+        "description": "<p><u><em><strong>sdsdsdsdasdasdas</strong></em></u><img alt=\"\" src=\"/media/uploads/muraddd/2020/01/29/blog-4.jpg\" style=\"height:1000px; width:800px\" /></p>",
+        "cover": "cover/blog-9.jpg",
+        "user": [
+            "muraddd"
+        ],
+        "category": 1,
+        "created_at": "2020-01-29T02:16:40.683",
+        "updated_at": "2020-01-29T05:27:30.839",
+        "tag": [
+            19
+        ]
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2020-01-05T04:15:32.164",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "contact"
+        ],
+        "object_id": "2",
+        "object_repr": "Murad Rustemzade | asd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2020-01-05T04:15:32.290",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "contact"
+        ],
+        "object_id": "1",
+        "object_repr": "Murad Rustemzade | asd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2020-01-05T21:12:10.819",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "accounts",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "muraddd",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Bio\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2020-01-05T23:07:47.325",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "category"
+        ],
+        "object_id": "1",
+        "object_repr": "Foods | 2020-01-05 23:07:47.307766",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2020-01-05T23:07:56.940",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "category"
+        ],
+        "object_id": "2",
+        "object_repr": "Drinks | 2020-01-05 23:07:56.938599",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2020-01-05T23:08:02.220",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "category"
+        ],
+        "object_id": "3",
+        "object_repr": "Lifestyle | 2020-01-05 23:08:02.218927",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2020-01-05T23:08:10.391",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "category"
+        ],
+        "object_id": "4",
+        "object_repr": "Travel | 2020-01-05 23:08:10.389507",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2020-01-05T23:08:51.338",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "category"
+        ],
+        "object_id": "5",
+        "object_repr": "Tour | 2020-01-05 23:08:51.336492",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2020-01-11T05:07:31.217",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "tag"
+        ],
+        "object_id": "1",
+        "object_repr": "food | 2020-01-11 05:07:31.203075",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2020-01-12T21:52:11.517",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "django_celery_beat",
+            "crontabschedule"
+        ],
+        "object_id": "1",
+        "object_repr": "* * * * * (m/h/d/dM/MY) UTC",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2020-01-12T21:52:27.492",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "django_celery_beat",
+            "crontabschedule"
+        ],
+        "object_id": "1",
+        "object_repr": "* * * * * (m/h/d/dM/MY) UTC",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2020-01-12T23:01:01.262",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "django_celery_beat",
+            "intervalschedule"
+        ],
+        "object_id": "1",
+        "object_repr": "every 30 seconds",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2020-01-12T23:02:39.070",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "django_celery_beat",
+            "periodictask"
+        ],
+        "object_id": "1",
+        "object_repr": "Send mail to subscribers: every 30 seconds",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2020-01-12T23:10:13.776",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "subscribe"
+        ],
+        "object_id": "15",
+        "object_repr": "a@gmail.com | 2020-01-09 17:05:52.152233",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2020-01-12T23:10:13.787",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "subscribe"
+        ],
+        "object_id": "14",
+        "object_repr": "faiq.rustamov.98@mail.ru | 2020-01-09 17:05:38.236161",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2020-01-12T23:10:13.798",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "subscribe"
+        ],
+        "object_id": "13",
+        "object_repr": "a@gmail.com | 2020-01-09 17:04:09.669020",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2020-01-12T23:10:13.809",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "subscribe"
+        ],
+        "object_id": "12",
+        "object_repr": "a@gmail.com | 2020-01-09 17:03:47.760808",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2020-01-12T23:10:13.821",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "subscribe"
+        ],
+        "object_id": "11",
+        "object_repr": "faiq.rustamov.98@mail.ru | 2020-01-09 16:59:56.945518",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2020-01-12T23:10:13.832",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "subscribe"
+        ],
+        "object_id": "10",
+        "object_repr": "a@gmail.com | 2020-01-09 16:57:29.743753",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2020-01-12T23:10:13.843",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "subscribe"
+        ],
+        "object_id": "9",
+        "object_repr": "a@gmail.com | 2020-01-09 16:56:14.972354",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2020-01-12T23:10:13.854",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "subscribe"
+        ],
+        "object_id": "8",
+        "object_repr": "a@gmail.com | 2020-01-09 16:55:59.135517",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2020-01-12T23:10:13.865",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "subscribe"
+        ],
+        "object_id": "7",
+        "object_repr": "a@gmail.com | 2020-01-09 14:47:38.538466",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2020-01-12T23:10:13.876",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "subscribe"
+        ],
+        "object_id": "6",
+        "object_repr": "faiq.rustamov.98@mail.ru | 2020-01-09 14:42:05.082169",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2020-01-12T23:10:13.887",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "subscribe"
+        ],
+        "object_id": "5",
+        "object_repr": "asd@gmail.com | 2020-01-07 23:51:53.858824",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2020-01-12T23:10:13.898",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "subscribe"
+        ],
+        "object_id": "4",
+        "object_repr": "murad.rustemzade@gmail.com | 2020-01-07 21:33:37.023171",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2020-01-12T23:10:13.909",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "subscribe"
+        ],
+        "object_id": "3",
+        "object_repr": "murad.rustemzade@gmail.com | 2020-01-07 04:51:59.827118",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2020-01-12T23:10:13.921",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "subscribe"
+        ],
+        "object_id": "2",
+        "object_repr": "murad.rustemzade@gmail.com | 2020-01-07 04:40:46.885096",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2020-01-12T23:10:13.932",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "subscribe"
+        ],
+        "object_id": "1",
+        "object_repr": "asdasd@mail.ru | 2020-01-07 04:24:35.472740",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2020-01-13T00:06:51.241",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "django_celery_beat",
+            "periodictask"
+        ],
+        "object_id": "1",
+        "object_repr": "Send mail to subscribers: every 30 seconds",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Enabled\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2020-01-13T00:13:38.694",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "django_celery_beat",
+            "intervalschedule"
+        ],
+        "object_id": "2",
+        "object_repr": "every day",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2020-01-13T00:29:35.423",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "django_celery_beat",
+            "periodictask"
+        ],
+        "object_id": "3",
+        "object_repr": "Testing: every 30 seconds",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2020-01-13T02:37:16.749",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "tag"
+        ],
+        "object_id": "2",
+        "object_repr": "tag1 | 2020-01-13 02:37:16.726620",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2020-01-13T02:37:20.643",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "tag"
+        ],
+        "object_id": "3",
+        "object_repr": "tag2 | 2020-01-13 02:37:20.641230",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2020-01-13T02:37:24.471",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "tag"
+        ],
+        "object_id": "4",
+        "object_repr": "tag3 | 2020-01-13 02:37:24.469693",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2020-01-13T02:37:31.465",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "24",
+        "object_repr": "Biri vardi biri yoxdu | 2020-01-13 02:37:31.440094",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2020-01-13T02:37:36.094",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "33",
+        "object_repr": "Story 1 | 2020-01-13 02:37:36.088692",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2020-01-13T02:37:41.208",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "35",
+        "object_repr": "asd | 2020-01-13 02:37:41.203988",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2020-01-13T02:37:48.961",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "32",
+        "object_repr": "Elmi | 2020-01-13 02:37:48.956908",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2020-01-17T04:22:17.315",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "tag"
+        ],
+        "object_id": "5",
+        "object_repr": "TOY | 2020-01-17 04:22:17.305431",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2020-01-17T04:22:28.397",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "tag"
+        ],
+        "object_id": "6",
+        "object_repr": "TAS | 2020-01-17 04:22:28.395820",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2020-01-18T22:38:17.063",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "accounts",
+            "user"
+        ],
+        "object_id": "3",
+        "object_repr": "Boomer",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Bio\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2020-01-18T23:18:33.427",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook-login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2020-01-18T23:19:01.829",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "http://localhost:8000/",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2020-01-18T23:54:00.111",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2020-01-19T00:03:20.465",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "accounts",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "murad",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Bio\", \"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2020-01-19T00:14:09.880",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "accounts",
+            "user"
+        ],
+        "object_id": "7",
+        "object_repr": "murad5",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2020-01-19T00:22:59.385",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialaccount"
+        ],
+        "object_id": "3",
+        "object_repr": "murad9",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2020-01-19T00:22:59.402",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialaccount"
+        ],
+        "object_id": "2",
+        "object_repr": "murad8",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2020-01-19T00:23:11.571",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "accounts",
+            "user"
+        ],
+        "object_id": "11",
+        "object_repr": "murad9",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2020-01-19T00:23:11.580",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "accounts",
+            "user"
+        ],
+        "object_id": "10",
+        "object_repr": "murad8",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2020-01-19T00:26:09.009",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "accounts",
+            "user"
+        ],
+        "object_id": "13",
+        "object_repr": "murad4",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2020-01-19T00:26:09.022",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "accounts",
+            "user"
+        ],
+        "object_id": "12",
+        "object_repr": "murad2",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2020-01-19T00:28:25.727",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "accounts",
+            "user"
+        ],
+        "object_id": "14",
+        "object_repr": "murad0",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2020-01-19T00:44:27.094",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "accounts",
+            "user"
+        ],
+        "object_id": "16",
+        "object_repr": "murad3",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2020-01-21T00:17:37.324",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "django_celery_beat",
+            "crontabschedule"
+        ],
+        "object_id": "3",
+        "object_repr": "19 0 * * * (m/h/d/dM/MY) Asia/Baku",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2020-01-21T00:18:02.596",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "django_celery_beat",
+            "periodictask"
+        ],
+        "object_id": "1",
+        "object_repr": "Send mail to subscribers: 19 0 * * * (m/h/d/dM/MY) Asia/Baku",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Interval Schedule\", \"Crontab Schedule\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2020-01-21T00:27:04.818",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "django_celery_beat",
+            "crontabschedule"
+        ],
+        "object_id": "3",
+        "object_repr": "27 0 * * * (m/h/d/dM/MY) Asia/Baku",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Minute(s)\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2020-01-21T00:27:08.503",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "django_celery_beat",
+            "periodictask"
+        ],
+        "object_id": "1",
+        "object_repr": "Send mail to subscribers: 27 0 * * * (m/h/d/dM/MY) Asia/Baku",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2020-01-21T00:27:25.247",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "django_celery_beat",
+            "crontabschedule"
+        ],
+        "object_id": "3",
+        "object_repr": "28,29 0 * * * (m/h/d/dM/MY) Asia/Baku",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Minute(s)\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2020-01-21T00:27:28.499",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "django_celery_beat",
+            "periodictask"
+        ],
+        "object_id": "1",
+        "object_repr": "Send mail to subscribers: 28,29 0 * * * (m/h/d/dM/MY) Asia/Baku",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2020-01-21T00:40:53.755",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "django_celery_beat",
+            "crontabschedule"
+        ],
+        "object_id": "3",
+        "object_repr": "41,42 0 * * * (m/h/d/dM/MY) Asia/Baku",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Minute(s)\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2020-01-21T00:40:56.487",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "django_celery_beat",
+            "periodictask"
+        ],
+        "object_id": "1",
+        "object_repr": "Send mail to subscribers: 41,42 0 * * * (m/h/d/dM/MY) Asia/Baku",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2020-01-21T00:53:10.490",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "django_celery_beat",
+            "crontabschedule"
+        ],
+        "object_id": "3",
+        "object_repr": "54 0 * * * (m/h/d/dM/MY) Asia/Baku",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Minute(s)\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2020-01-21T00:53:12.279",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "django_celery_beat",
+            "periodictask"
+        ],
+        "object_id": "1",
+        "object_repr": "Send mail to subscribers: 54 0 * * * (m/h/d/dM/MY) Asia/Baku",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Task (registered)\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2020-01-24T15:42:50.820",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "tag"
+        ],
+        "object_id": "16",
+        "object_repr": "SD",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2020-01-24T16:08:56.003",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "recipe"
+        ],
+        "object_id": "1",
+        "object_repr": "sdsd | 2020-01-24 16:08:55.933087",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Append\", \"object\": \"asdad\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2020-01-24T16:11:19.805",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "recipe"
+        ],
+        "object_id": "1",
+        "object_repr": "sdsd | 2020-01-24 16:08:55.933087",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2020-01-24T16:11:44.614",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "recipe"
+        ],
+        "object_id": "1",
+        "object_repr": "sdsd | 2020-01-24 16:08:55.933087",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2020-01-24T16:11:56.230",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "recipe"
+        ],
+        "object_id": "1",
+        "object_repr": "sdsd | 2020-01-24 16:08:55.933087",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2020-01-24T16:55:06.827",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "88",
+        "object_repr": "Story object (88)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2020-01-24T16:55:06.846",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "87",
+        "object_repr": "Story object (87)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2020-01-24T16:55:23.952",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "89",
+        "object_repr": "Story object (89)",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"Append\", \"object\": \"asd\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2020-01-24T17:04:58.936",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "89",
+        "object_repr": "Story object (89)",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"Append\", \"object\": \"Managment Commands\"}}, {\"changed\": {\"name\": \"Append\", \"object\": \"Field\", \"fields\": [\"Title\", \"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2020-01-24T17:28:09.370",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "89",
+        "object_repr": "Story object (89)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"Append\", \"object\": \"Field\", \"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2020-01-24T17:30:33.744",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "89",
+        "object_repr": "Story object (89)",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"Append\", \"object\": \"Append object (10)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2020-01-28T16:21:45.128",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "90",
+        "object_repr": "Ner ttitkele | 2020-01-28 16:21:45.056958",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2020-01-28T16:24:16.507",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "90",
+        "object_repr": "Ner ttitkele | 2020-01-28 16:24:16.503740",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2020-01-28T16:33:16.079",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "90",
+        "object_repr": "asdad | 2020-01-28 16:33:16.076221",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2020-01-28T16:33:34.286",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "90",
+        "object_repr": "Hekay\u0259m | 2020-01-28 16:33:34.283841",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2020-01-28T16:33:51.131",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "90",
+        "object_repr": "Hekay\u0259m | 2020-01-28 16:33:51.129212",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2020-01-28T16:34:16.416",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "90",
+        "object_repr": "Hekay\u0259m | 2020-01-28 16:34:16.412354",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2020-01-28T17:02:13.024",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "90",
+        "object_repr": "Hekay\u0259m | 2020-01-28 17:02:13.021008",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2020-01-28T17:02:57.389",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "90",
+        "object_repr": "Hekay\u0259m | 2020-01-28 17:02:57.386811",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2020-01-28T17:08:36.013",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "90",
+        "object_repr": "Hekay\u0259m | 2020-01-28 17:08:36.008991",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2020-01-28T17:57:16.992",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "90",
+        "object_repr": "Hekay\u0259m | 2020-01-28 17:08:36.008991",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2020-01-28T17:57:17.137",
+        "user": [
+            "murad"
+        ],
+        "content_type": [
+            "stories",
+            "story"
+        ],
+        "object_id": "89",
+        "object_repr": "Ner ttitkele | 2020-01-24 17:30:33.740465",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}
+]

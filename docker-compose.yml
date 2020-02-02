@@ -1,0 +1,74 @@
+version: '3.5'
+
+services:
+
+  postgres:
+    container_name: postgres
+    image: postgres:12.1
+    env_file: 
+      - .env
+    volumes:
+      - ./.postgresdb/:/var/lib/postgresql/data
+    ports:
+      - "${POSTGRES_PORT}:5432"
+    restart: on-failure
+
+
+  redis:
+    container_name: redis
+    image: redis:rc-buster
+    ports:
+      - "6379:6379"
+    restart: on-failure
+    command: ["redis-server", "--appendonly", "yes"]
+    hostname: redis
+
+  web:
+    build: .
+    container_name: web
+    restart: always
+    env_file: 
+      - .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/code/
+      - ./static/:/code/static/
+      - ./media/:/code/media/
+    links: 
+      - postgres
+    depends_on:
+      - postgres
+
+
+  celery: 
+    container_name: celery
+    build: 
+      context: .
+      dockerfile: celery.dockerfile
+    env_file: 
+      - .env
+    volumes:
+      - .:/code
+    links:
+      - postgres
+      - redis
+    depends_on: 
+      - postgres
+      - redis
+
+
+
+  nginx:
+    container_name: nginx
+    image: jwilder/nginx-proxy
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - ./nginx/vhost/:/etc/nginx/vhost.d:ro
+      - ./nginx/conf.d/client_max_body_size.conf:/etc/nginx/conf.d/client_max_body_size.conf:ro
+      - ./static/:/code/static/
+      - ./media/:/code/media/
+

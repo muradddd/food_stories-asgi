@@ -1,0 +1,24 @@
+{% load static %}
+
+
+<li class="comment" id='comment_id_{{ comment.id }}'>
+    <div class="vcard bio">
+        <img src="{% static 'images/person_1.jpg' %}" alt="Image placeholder">
+    </div>
+    <div class="comment-body">
+        <h3>{{ comment.user.first_name }} {{ comment.user.last_name }}
+        </h3>
+        <div class="meta">{{ comment.updated_at }}</div>
+        <p>{{ comment.text }}</p>
+        <!-- <a><a href="" class="reply">Reply</a></p> -->
+        <button class='comment_reply' id="comment_id_{{ comment.id  }}">Reply</button>
+    </div>
+    <div id="comment_wrapper_{{ comment.id }}" class="comment_wrapper"></div>
+    {% if comment.children %}
+        {% for comment in comment.children.all %}
+        <ul class="children">
+            {% include 'includes/comment.html' %}
+        </ul>
+        {% endfor %}
+    {% endif %}
+</li>

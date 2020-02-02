@@ -1,0 +1,182 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+single
+{% endblock title %}
+
+{% block  body%}
+<section class="hero-wrap hero-wrap-2" style="background-image: url('{% static 'images/bg_4.jpg' %}');">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-end justify-content-center">
+            <div class="col-md-9 ftco-animate pb-5 text-center">
+                <h1 class="mb-3 bread">Article Single</h1>
+                <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i
+                                class="ion-ios-arrow-forward"></i></a></span> <span>Article Single<i
+                            class="ion-ios-arrow-forward"></i></span></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 order-lg-last ftco-animate">
+
+                {% comment %} {% for story in story.append.all %} {% endcomment %}
+                    <h2 class="mb-3">{{ story.title }}</h2>
+                    <p>{{ story.description | safe }}.</p>
+                    {% if story.image %}
+                        <img src='{{ story.image.url }}'>                    
+                    {% endif %}
+                {% comment %} {% endfor %} {% endcomment %}
+
+                {% comment %} tags {% endcomment %}
+                <div class="tag-widget post-tag-container mb-5 mt-5">
+                    <div class="tagcloud">
+                        {% for tag in tags %}
+                            <a href="#" class="tag-cloud-link">{{ tag }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% comment %} user data {% endcomment %}
+                <div class="about-author d-flex p-4 bg-light">
+                    <div class="bio mr-5">
+                        <img src="{% static 'images/person_1.jpg' %}" alt="Image placeholder" class="img-fluid mb-4">
+                    </div>
+                    <div class="desc">
+                        <h3><a href="{% url 'accounts:user-profile' object.user.id %}">{{ story.user.first_name }} {{ story.user.last_name}}</a></h3>
+                        <p>{{ story.user.bio }}</p>
+                    </div>
+                </div>
+
+
+                {% comment %} Comments {% endcomment %}
+                <div class="pt-5 mt-5">
+                    <h3 class="mb-5">{{ story.comments.count }} Comments</h3>
+                    <ul class="comment-list" id='comment-list'>
+
+                        {% for comment in story.comments.all %}
+                            {% comment %} {% comment as komment %} {% endcomment %}
+                            {% if comment.parent is None %}
+                                {% include 'includes/comment.html' %}
+                            {% endif %}
+                        {% endfor %}
+
+                    </ul>
+
+
+                {% comment %} comment form {% endcomment %}
+                    <div id='comment_form' class="comment-form-wrap pt-5">
+                        <h3 class="mb-5">Leave a comment</h3>
+                        <form action="" method='post' class="p-5 bg-light" id='form'>
+                            {% csrf_token %}
+                            {{ form.errors }}
+                            {{ form.non_field_errors }}
+
+                            {% if request.user.is_authenticated %}
+                                <div class="form-group">
+                                    {{ form.text.label_tag }}
+                                    {{ form.text }}
+                                </div>
+                                <div class="form-group">
+                                    <input type="hidden" name="parent" id='parent'>
+                                    <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
+                                </div>
+                            {% else %}
+                                <div class="form-group">
+                                    <p>Register for comment</p>
+                                </div>
+                            {% endif %}
+
+
+                        </form>
+                    </div>
+                </div>
+            </div> <!-- .col-md-8 -->
+
+
+
+
+            <div class="col-lg-4 sidebar pr-lg-5 ftco-animate">
+                <div class="sidebar-box">
+                    <form action="#" class="search-form">
+                        <div class="form-group">
+                            <span class="icon icon-search"></span>
+                            <input type="text" class="form-control" placeholder="Type a keyword and hit enter">
+                        </div>
+                    </form>
+                </div>
+                <div class="sidebar-box ftco-animate">
+                    <ul class="categories">
+                        <h3 class="heading mb-4">Categories</h3>
+                        <li><a href="#">Travel <span>(12)</span></a></li>
+                        <li><a href="#">Tour <span>(22)</span></a></li>
+                        <li><a href="#">Destination <span>(37)</span></a></li>
+                        <li><a href="#">Drinks <span>(42)</span></a></li>
+                        <li><a href="#">Foods <span>(14)</span></a></li>
+                        <li><a href="#">Travel <span>(140)</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-box ftco-animate">
+                    <h3 class="heading mb-4">Recent Blog</h3>
+                    <div class="block-21 mb-4 d-flex">
+                        <a class="blog-img mr-4" style="background-image: url({% static 'images/image_1.jpg' %});"></a>
+                        <div class="text">
+                            <h3><a href="#">Even the all-powerful Pointing has no control about the blind texts</a>
+                            </h3>
+                            <div class="meta">
+                                <div><a href="#"><span class="icon-calendar"></span> February 12, 2019</a></div>
+                                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-21 mb-4 d-flex">
+                        <a class="blog-img mr-4" style="background-image: url({% static 'images/image_2.jpg' %});"></a>
+                        <div class="text">
+                            <h3><a href="#">Even the all-powerful Pointing has no control about the blind texts</a>
+                            </h3>
+                            <div class="meta">
+                                <div><a href="#"><span class="icon-calendar"></span> February 12, 2019</a></div>
+                                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-21 mb-4 d-flex">
+                        <a class="blog-img mr-4" style="background-image: url({% static 'images/image_3.jpg' %});"></a>
+                        <div class="text">
+                            <h3><a href="#">Even the all-powerful Pointing has no control about the blind texts</a>
+                            </h3>
+                            <div class="meta">
+                                <div><a href="#"><span class="icon-calendar"></span> February 12, 2019</a></div>
+                                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar-box ftco-animate">
+                    <h3 class="heading mb-4">Tag Cloud</h3>
+                    <div class="tagcloud">
+                        <a href="#" class="tag-cloud-link">dish</a>
+                        <a href="#" class="tag-cloud-link">menu</a>
+                        <a href="#" class="tag-cloud-link">food</a>
+                        <a href="#" class="tag-cloud-link">sweet</a>
+                        <a href="#" class="tag-cloud-link">tasty</a>
+                        <a href="#" class="tag-cloud-link">delicious</a>
+                        <a href="#" class="tag-cloud-link">desserts</a>
+                        <a href="#" class="tag-cloud-link">drinks</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+{% endblock body %}
