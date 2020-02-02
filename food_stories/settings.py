@@ -104,7 +104,6 @@ TEMPLATES = [
 
 
 ROOT_URLCONF = 'food_stories.urls'
-WSGI_APPLICATION = 'food_stories.wsgi.application'
 
 
 if PROD:
@@ -230,14 +229,25 @@ ACCOUNT_USER_MODEL_EMAIL_FIELD = None
 # web-socket/channels
 ASGI_APPLICATION = "food_stories.routing.application"
 # redis for channels
-CHANNEL_LAYERS = {
-    "default": {
-        "BACKEND": "channels_redis.core.RedisChannelLayer",
-        "CONFIG": {
-            "hosts": [("localhost", 6379)],
+if PROD:
+    CHANNEL_LAYERS = {
+        "default": {
+            "BACKEND": "channels_redis.core.RedisChannelLayer",
+            "CONFIG": {
+                "hosts": [("redis", 6379)],
+            },
         },
-    },
-}
+    }
+else:
+    CHANNEL_LAYERS = {
+        "default": {
+            "BACKEND": "channels_redis.core.RedisChannelLayer",
+            "CONFIG": {
+                "hosts": [("localhost", 6379)],
+            },
+        },
+    }
+
 
 # ckeditor
 CKEDITOR_UPLOAD_PATH = "uploads/"
